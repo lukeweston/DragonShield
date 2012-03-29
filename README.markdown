@@ -1,5 +1,7 @@
 DragonShield v1.0
 
+![Alt text](https://github.com/lukeweston/DragonShield/raw/master/DragonShield-pcb.png)
+
 Dragino daughterboard with SPI real-time clock, socket for XBee 802.15.4 module or similar "Bee" module and micro-SD card socket.
 
 The XBee module is simply connected to the serial UART on the AR2317.
