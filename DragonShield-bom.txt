@@ -1,0 +1,26 @@
+Partlist
+
+Exported from DragonShield.sch at 8/04/12 2:26 AM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value          Device        Package        Library     Sheet
+
+B1       CR1220         BATTERY12MM   BATTCON_12MM   SparkFun    1
+C1       100 nF         C-EUC0805K    C0805K         resistor    1
+C2       100 nF         C-EUC0805K    C0805K         resistor    1
+IC1      MCP795W10      MCP795W10SO   SOIC14         Luke        1
+J1       Router         MA08-2        MA08-2         con-lstb    1
+J2       MICROSD        MICROSD       MICROSD        adafruit    1
+J3       Sensors        MA07-2        MA07-2         con-lstb    1
+J4       Serial         PINHD-1X6     1X06           pinhead     1
+J5       XBee           XBEE-PRO      XBEE-PRO       maxstream   1
+LED1     RSSI           LED0805-LARGE LED-0805-LARGE freetronics 1
+LED2     Assoc          LED0805-LARGE LED-0805-LARGE freetronics 1
+Q1       32768 Hz       CRYSTALTC26H  TC26H          SparkFun    1
+R1       10k            R-US_M0805    M0805          resistor    1
+R2       10k            R-US_M0805    M0805          resistor    1
+R3       4.7 k          R-US_M0805    M0805          resistor    1
+R4       10 k           R-US_M0805    M0805          resistor    1
+R5       1 k            R-US_M0805    M0805          resistor    1
+R6       1 k            R-US_M0805    M0805          resistor    1
