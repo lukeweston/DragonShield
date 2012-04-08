@@ -1,26 +1,28 @@
-Partlist
-
-Exported from DragonShield.sch at 8/04/12 2:26 AM
-
-EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
-
-Part     Value          Device        Package        Library     Sheet
-
-B1       CR1220         BATTERY12MM   BATTCON_12MM   SparkFun    1
-C1       100 nF         C-EUC0805K    C0805K         resistor    1
-C2       100 nF         C-EUC0805K    C0805K         resistor    1
-IC1      MCP795W10      MCP795W10SO   SOIC14         Luke        1
-J1       Router         MA08-2        MA08-2         con-lstb    1
-J2       MICROSD        MICROSD       MICROSD        adafruit    1
-J3       Sensors        MA07-2        MA07-2         con-lstb    1
-J4       Serial         PINHD-1X6     1X06           pinhead     1
-J5       XBee           XBEE-PRO      XBEE-PRO       maxstream   1
-LED1     RSSI           LED0805-LARGE LED-0805-LARGE freetronics 1
-LED2     Assoc          LED0805-LARGE LED-0805-LARGE freetronics 1
-Q1       32768 Hz       CRYSTALTC26H  TC26H          SparkFun    1
-R1       10k            R-US_M0805    M0805          resistor    1
-R2       10k            R-US_M0805    M0805          resistor    1
-R3       4.7 k          R-US_M0805    M0805          resistor    1
-R4       10 k           R-US_M0805    M0805          resistor    1
-R5       1 k            R-US_M0805    M0805          resistor    1
-R6       1 k            R-US_M0805    M0805          resistor    1
+																			
+DragonShield bill of materials
+																			
+Resistors (Qty:)	Component IDs	Value			Packaging	Digi-Key SKU		Unit Price (USD)	Subtotal	Notes
+												
+3			R1, R2, R4	10 k			SMD 0805	311-10KARCT-ND		0.0170			0.0510
+1			R3		4.7 k			SMD 0805	311-4.7KARCT-ND		0.0170			0.0170
+2			R5, R6		1 k			SMD 0805	311-1.0KARCT-ND		0.0170			0.0340
+																			
+Capacitors																			
+2			C1, C2		100 nF			SMD 0805	311-1361-1-ND		0.0310			0.0620
+																			
+Semiconductors																			
+2			LED1, LED2	Green LED		SMD 0805	754-1131-1-ND		0.1600			0.3200
+1			IC1		MCP795W10		SOIC-14		MCP795W10-I/SL-ND	2.1200			2.1200
+																			
+Miscellaneous																			
+1			Q1		32768 Hz		TC26		535-9032-ND		0.2500			0.2500
+1			B1		SMD CR1220 clip				3000K-ND		0.5700			0.5700
+1			N/A		CR1220 3V cell				SY033-ND		0.7600			0.7600
+1			J2		Micro-SD card socket			101-00660-68-6-1-ND	1.9700			1.9700
+1			J4		1x6 0.1" pin header			3M9451-ND		0.3300			0.3300
+2			J5a, J5b	2.0mm 10-pin header skt			S5751-10-ND		1.11			2.2200
+1			J1		2x8 0.1" pin header			N/A								
+1			J3		2x7 0.1" pin header			N/A								
+															Total:	12.7260	(Excludes PCBs and XBee.)
+																	(And shipping.)
+																			
